@@ -1,0 +1,49 @@
+{
+"fecha_prode": [
+    {  
+        "fechaPartido": "15-07-2023 16:00",
+        "equipoLocal": "Atlético de Madrid",
+        "marcadorLocal": 2,
+        "equipoVisitante": "Real Madrid",
+        "marcadorVisitante": 4,
+        "pronosticoLocal":"-",
+        "pronosticoVisitante":"-"
+    },
+    {  
+        "fechaPartido": "15-07-2023 16:00",
+        "equipoLocal": "Barcelona",
+        "marcadorLocal": 1,
+        "equipoVisitante": "Sevilla",
+        "marcadorVisitante": 1,
+        "pronosticoLocal":"-",
+        "pronosticoVisitante":"-"
+      },
+      {  
+        "fechaPartido": "15-07-2023 16:00",
+        "equipoLocal": "Villareal",
+        "marcadorLocal": 2,
+        "equipoVisitante": "Real Betis",
+        "marcadorVisitante": 0,
+        "pronosticoLocal":"-",
+        "pronosticoVisitante":"-"
+      },
+      {  
+        "fechaPartido": "15-07-2023 16:00",
+        "equipoLocal": "Getafe",
+        "marcadorLocal": 2,
+        "equipoVisitante": "Valencia",
+        "marcadorVisitante": 3,
+        "pronosticoLocal":"-",
+        "pronosticoVisitante":"-"
+      },
+      {  
+        "fechaPartido": "15-07-2023 16:00",
+        "equipoLocal": "Real Sociedad",
+        "marcadorLocal": 1,
+        "equipoVisitante": "Athletic Bilbao",
+        "marcadorVisitante": 0,
+        "pronosticoLocal":"-",
+        "pronosticoVisitante":"-"
+      }
+]
+}

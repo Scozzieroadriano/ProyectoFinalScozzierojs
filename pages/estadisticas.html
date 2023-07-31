@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+    <title>Estadisticas</title>
+</head>
+
+<body>
+    <header class="headerEstadisticas">
+
+    </header>
+    <main class="mainEstadisticas">
+        <div class="conteinerTabla">
+            <h2 class="tituloTabla">TABLA PUNTOS PRIMERA</h2>
+            <table class="tablaEquipos">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Equipo</th>
+                        <th>Pts</th>
+                        <th>PJ</th>
+                        <th>PG</th>
+                        <th>PE</th>
+                        <th>PP</th>
+                        <th>GF</th>
+                        <th>GC</th>
+                        <th>DIF</th>
+                    </tr>
+                <tbody id="dataTable"></tbody>
+                </thead>
+            </table>
+        </div>
+        <div class="conteinerTabla">
+            <div class="cabeceraPuntos">
+                <button id="fechaAnt">ANT</button>
+                <h2 class="tituloTabla tituloPartidos">PARTIDOS FECHA 1</h2>
+                <button id="fechaSig">SIG</button>
+            </div>
+            <table class="tablaEquipos">
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Equipo Local</th>
+                        <th>Goles Local</th>
+                        <th>Goles Visit</th>
+                        <th>Equipo Visit</th>
+                    </tr>
+                <tbody class="tbody" id="dataTablePartidos"></tbody>
+                </thead>
+            </table>
+            
+        </div>
+    </main>
+    <footer class="footerEstadisticas">
+        <a href="./prode.html" class="boton">PRODE</a>
+    </footer>
+    <script src="../scripts/estadisticas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>

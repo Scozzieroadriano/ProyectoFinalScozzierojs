@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: brown;
+    width: 100%;
+    height: 40vh;
+    padding: 20px;       
+}
+body {
+    font-family: Arial, sans-serif; 
+}
+.container {
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.formGroup {
+    margin-bottom: 15px;
+}
+label, input {
+    display: block;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.btnLogin {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url('../addons/fondos/fondoEstadio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer{
+    background-color: brown;
+    width: 100%;
+    height: 10vh;
+}
+.headerEstadisticas{
+    height: 10vh;
+}
+.mainEstadisticas{
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+}
+.footerEstadisticas{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.tablaEquipos{
+    background-color:white;    
+    color:white;    
+    font-size: 1em;
+    width: 40vw;
+    text-align: center;    
+}
+th{
+    background-color: black;
+    color: white;
+    height: 30px;    
+}
+#dataTable tr:first-child {
+    background-color: green;
+}
+tr{
+    background-color: rgb(77, 76, 76);
+    height: 30px;
+    border: 1px solid black;    
+}
+.conteinerTabla{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 50vw;
+height: 100%;
+color: white;
+}
+.tituloTabla{  
+    width:40vw;
+    background-color: rgb(247, 252, 0);
+    border: 2px solid black;
+    text-align: center;
+    color:gray;
+}
+.cabeceraPuntos{
+    display: flex;
+    gap: 5px;
+}
+.boton {
+    width: 80px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+.puntaje{
+    width: 450px;
+    background-color: gray ;
+    height: 40px;
+    border-radius: 20px;  
+    display: flex;
+    gap: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .ptsUser{
+    font-weight: bold;
+    justify-self:end;
+    color: black;
+  }  
+
+  .card{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    height: 100%;    
+  }
+  .equipos{
+    overflow-y: auto;
+    width: 450px;
+  }
+  figcaption{
+    text-align: center;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    background-color: #999fa5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tarjeta {
+    width: 300px;
+    background-color: rgba(255, 192, 203, 0.247);
+    height: 150px;
+    display: grid;
+    grid-template-rows: 20px 1fr 20px;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-areas:
+      'fecha fecha pts' 'equipoLocal partido equipoVisitante' 'grupo grupo grupo';
+    
+  }
+  .fechaPartido{
+    background-color: red;
+    grid-area: fecha;  
+  }
+  .equipo{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .datosEquipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Local{
+    grid-area: equipoLocal;
+  }
+  .Visitante{
+    grid-area: equipoVisitante;
+  }
+  .imgEquipo{
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/escudoImg.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .pronostico{
+    color: black;
+    grid-area: partido;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    visibility: visible;
+  }
+  .marcador{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .resultado{
+    color: black;
+    grid-area: partido;
+    width: 100%;
+    height: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    visibility: hidden;
+   
+  }
+  .resultado div{
+    text-align: center;
+    line-height: 1.5;
+    font-size: .8rem;
+  }
+  .pts{
+    grid-area: pts;
+    color: black;
+    background-color: red;
+    text-align: end;
+    padding-right: 10px;
+  }
+  .cerrar{
+    background-color: rgb(255, 0, 221);
+  }
+  .puntaje{
+    background-color: gray ;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .description{
+    grid-area: grupo;
+    background-color: gray;
+    text-align: center;
+    height: 20px;
+    color:black;
+    font-style: bold;
+  }
+  .btnpronostico{    
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .marcLocal{
+    background-color: rgba(128, 128, 128, 0.274);    
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+  }
+  .marcVisitante{
+    background-color: rgba(128, 128, 128, 0.233);    
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+  }
+  .loader {
+    border: 4px solid #f3f3f3; 
+    border-top: 4px solid #3498db; 
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 2s linear infinite;
+    display: none;
+  }
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); } 
+  }
+  .index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  

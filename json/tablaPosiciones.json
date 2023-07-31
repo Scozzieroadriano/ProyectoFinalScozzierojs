@@ -1,0 +1,126 @@
+{
+    "tabla_posiciones": [
+      {
+        "nombre_completo": "Club Atlético de Madrid",
+        "nombre_corto": "Atlético de Madrid",
+        "puntos": 58,
+        "partidos_jugados": 30,
+        "partidos_ganados": 17,
+        "partidos_empatados": 7,
+        "partidos_perdidos": 6,
+        "goles_favor": 55,
+        "goles_contra": 30,
+        "diferencia_goles": 25
+      },
+      {
+        "nombre_completo": "Fútbol Club Barcelona",
+        "nombre_corto": "Barcelona",
+        "puntos": 62,
+        "partidos_jugados": 30,
+        "partidos_ganados": 18,
+        "partidos_empatados": 8,
+        "partidos_perdidos": 4,
+        "goles_favor": 65,
+        "goles_contra": 25,
+        "diferencia_goles": 40
+      },
+      {
+        "nombre_completo": "Sevilla Fútbol Club",
+        "nombre_corto": "Sevilla",
+        "puntos": 54,
+        "partidos_jugados": 30,
+        "partidos_ganados": 16,
+        "partidos_empatados": 6,
+        "partidos_perdidos": 8,
+        "goles_favor": 50,
+        "goles_contra": 35,
+        "diferencia_goles": 15
+      },
+      {
+        "nombre_completo": "Athletic Club",
+        "nombre_corto": "Athletic Bilbao",
+        "puntos": 44,
+        "partidos_jugados": 30,
+        "partidos_ganados": 12,
+        "partidos_empatados": 8,
+        "partidos_perdidos": 10,
+        "goles_favor": 35,
+        "goles_contra": 35,
+        "diferencia_goles": 0
+      },
+      {
+        "nombre_completo": "Real Madrid Club de Fútbol",
+        "nombre_corto": "Real Madrid",
+        "puntos": 65,
+        "partidos_jugados": 30,
+        "partidos_ganados": 20,
+        "partidos_empatados": 5,
+        "partidos_perdidos": 5,
+        "goles_favor": 70,
+        "goles_contra": 30,
+        "diferencia_goles": 40
+      },
+      {
+        "nombre_completo": "Real Sociedad de Fútbol",
+        "nombre_corto": "Real Sociedad",
+        "puntos": 52,
+        "partidos_jugados": 30,
+        "partidos_ganados": 15,
+        "partidos_empatados": 7,
+        "partidos_perdidos": 8,
+        "goles_favor": 45,
+        "goles_contra": 35,
+        "diferencia_goles": 10
+      },
+      {
+        "nombre_completo": "Villarreal Club de Fútbol",
+        "nombre_corto": "Villarreal",
+        "puntos": 50,
+        "partidos_jugados": 30,
+        "partidos_ganados": 14,
+        "partidos_empatados": 8,
+        "partidos_perdidos": 8,
+        "goles_favor": 42,
+        "goles_contra": 38,
+        "diferencia_goles": 4
+      },
+      {
+        "nombre_completo": "Real Betis Balompié",
+        "nombre_corto": "Real Betis",
+        "puntos": 48,
+        "partidos_jugados": 30,
+        "partidos_ganados": 13,
+        "partidos_empatados": 9,
+        "partidos_perdidos": 8,
+        "goles_favor": 40,
+        "goles_contra": 35,
+        "diferencia_goles": 5
+      },
+      {
+        "nombre_completo": "Getafe Club de Fútbol",
+        "nombre_corto": "Getafe",
+        "puntos": 35,
+        "partidos_jugados": 30,
+        "partidos_ganados": 8,
+        "partidos_empatados": 11,
+        "partidos_perdidos": 11,
+        "goles_favor": 25,
+        "goles_contra": 35,
+        "diferencia_goles": -10
+      },
+      {
+        "nombre_completo": "Valencia Club de Fútbol",
+        "nombre_corto": "Valencia",
+        "puntos": 39,
+        "partidos_jugados": 30,
+        "partidos_ganados": 10,
+        "partidos_empatados": 9,
+        "partidos_perdidos": 11,
+        "goles_favor": 30,
+        "goles_contra": 40,
+        "diferencia_goles": -10
+      }
+
+    ]
+  }
+  

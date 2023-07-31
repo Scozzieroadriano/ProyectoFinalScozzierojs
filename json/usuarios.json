@@ -1,0 +1,46 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre_completo": "Juan Pérez",
+        "nombre_usuario": "usuario1",
+        "contrasena": "contrasena1",
+        "puntos": 13
+      },
+      {
+        "id": 2,
+        "nombre_completo": "María Rodríguez",
+        "nombre_usuario": "usuario2",
+        "contrasena": "contrasena2",
+        "puntos": 11
+      },
+      {
+        "id": 3,
+        "nombre_completo": "Carlos Gómez",
+        "nombre_usuario": "usuario3",
+        "contrasena": "contrasena3",
+        "puntos": 9
+      },
+      {
+        "id": 4,
+        "nombre_completo": "Laura López",
+        "nombre_usuario": "usuario4",
+        "contrasena": "contrasena4",
+        "puntos": 5
+      },
+      {
+        "id": 5,
+        "nombre_completo": "Andrés Martínez",
+        "nombre_usuario": "usuario5",
+        "contrasena": "contrasena5",
+        "puntos": 6
+      },
+      {
+        "id": 6,
+        "nombre_completo": "Administrador",
+        "nombre_usuario": "admin",
+        "contrasena": "admin",
+        "puntos": 0
+      }
+    ]
+  }

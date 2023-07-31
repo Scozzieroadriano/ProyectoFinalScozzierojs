@@ -1,0 +1,129 @@
+{
+    "partidos_simulados": {
+      "fecha_1": [
+        {
+          "equipo_local": "Atlético de Madrid",
+          "equipo_visitante": "Barcelona",
+          "goles_local": 1,
+          "goles_visitante": 0
+        },
+        {
+          "equipo_local": "Real Madrid",
+          "equipo_visitante": "Sevilla",
+          "goles_local": 3,
+          "goles_visitante": 2
+        },
+        {
+          "equipo_local": "Valencia",
+          "equipo_visitante": "Villarreal",
+          "goles_local": 0,
+          "goles_visitante": 1
+        },
+        {
+          "equipo_local": "Real Betis",
+          "equipo_visitante": "Real Sociedad",
+          "goles_local": 2,
+          "goles_visitante": 2
+        },
+        {
+          "equipo_local": "Getafe",
+          "equipo_visitante": "Athletic Bilbao",
+          "goles_local": 1,
+          "goles_visitante": 3
+        },
+        {
+          "equipo_local": "Barcelona",
+          "equipo_visitante": "Real Madrid",
+          "goles_local": 2,
+          "goles_visitante": 2
+        },
+        {
+          "equipo_local": "Villarreal",
+          "equipo_visitante": "Atlético de Madrid",
+          "goles_local": 0,
+          "goles_visitante": 2
+        },
+        {
+          "equipo_local": "Real Sociedad",
+          "equipo_visitante": "Valencia",
+          "goles_local": 3,
+          "goles_visitante": 1
+        },
+        {
+          "equipo_local": "Sevilla",
+          "equipo_visitante": "Real Betis",
+          "goles_local": 1,
+          "goles_visitante": 0
+        },
+        {
+          "equipo_local": "Athletic Bilbao",
+          "equipo_visitante": "Getafe",
+          "goles_local": 2,
+          "goles_visitante": 0
+        }
+      ],
+      "fecha_2": [
+        {
+          "equipo_local": "Barcelona",
+          "equipo_visitante": "Valencia",
+          "goles_local": 3,
+          "goles_visitante": 0
+        },
+        {
+          "equipo_local": "Real Sociedad",
+          "equipo_visitante": "Real Madrid",
+          "goles_local": 1,
+          "goles_visitante": 2
+        },
+        {
+          "equipo_local": "Atlético de Madrid",
+          "equipo_visitante": "Sevilla",
+          "goles_local": 2,
+          "goles_visitante": 1
+        },
+        {
+          "equipo_local": "Real Betis",
+          "equipo_visitante": "Villarreal",
+          "goles_local": 2,
+          "goles_visitante": 2
+        },
+        {
+          "equipo_local": "Getafe",
+          "equipo_visitante": "Barcelona",
+          "goles_local": 0,
+          "goles_visitante": 1
+        },
+        {
+          "equipo_local": "Valencia",
+          "equipo_visitante": "Real Sociedad",
+          "goles_local": 2,
+          "goles_visitante": 1
+        },
+        {
+          "equipo_local": "Sevilla",
+          "equipo_visitante": "Athletic Bilbao",
+          "goles_local": 1,
+          "goles_visitante": 1
+        },
+        {
+          "equipo_local": "Real Madrid",
+          "equipo_visitante": "Villarreal",
+          "goles_local": 2,
+          "goles_visitante": 0
+        },
+        {
+          "equipo_local": "Atlético de Madrid",
+          "equipo_visitante": "Getafe",
+          "goles_local": 3,
+          "goles_visitante": 0
+        },
+        {
+          "equipo_local": "Barcelona",
+          "equipo_visitante": "Real Betis",
+          "goles_local": 1,
+          "goles_visitante": 2
+        }
+      ]
+    }
+  }
+  
